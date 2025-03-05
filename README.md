@@ -1,6 +1,6 @@
 # Gerenciador de Transações
 
-![Demonstração do projeto](transactions-with.api.gif)
+![Demonstração do projeto](transactions-with-api.gif)
 Este projeto foi desenvolvido para exercitar o uso de requisições a uma API, utilizando a ferramenta `json-server` para simular uma API RESTful a partir de um arquivo JSON.
 
 ## 🚀 Funcionalidades
@@ -43,7 +43,8 @@ Uma transação salva no `db.json` terá o seguinte formato:
 {
   "id": 1,
   "descricao": "Lanche",
-  "valor": -30
+  "valor": -30,
+  "type": "negative"
 }
 ```
 
